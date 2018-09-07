@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A75EFC9F214245A3000E54D9 /* UIColor+Hex.mm in Sources */ = {isa = PBXBuildFile; fileRef = A75EFC9E214245A2000E54D9 /* UIColor+Hex.mm */; };
+		A75EFCA621425694000E54D9 /* ISChaoEnergyProgressLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = A75EFCA521425694000E54D9 /* ISChaoEnergyProgressLayer.mm */; };
+		A786A256213E792F00391DAF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A786A255213E792F00391DAF /* AppDelegate.m */; };
+		A786A259213E793000391DAF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A786A258213E793000391DAF /* ViewController.m */; };
+		A786A25C213E793000391DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A786A25A213E793000391DAF /* Main.storyboard */; };
+		A786A25E213E793200391DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A786A25D213E793200391DAF /* Assets.xcassets */; };
+		A786A261213E793200391DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A786A25F213E793200391DAF /* LaunchScreen.storyboard */; };
+		A786A264213E793200391DAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A786A263213E793200391DAF /* main.m */; };
+		A7C56FE821411E210040549F /* ISChaosEnergyView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7C56FE721411E210040549F /* ISChaosEnergyView.mm */; };
+		A7C56FEB21412E610040549F /* ISChaoEnergyProgressView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7C56FEA21412E610040549F /* ISChaoEnergyProgressView.mm */; };
+		A7C56FEE21412F930040549F /* 2222@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C56FEC21412F920040549F /* 2222@2x.png */; };
+		A7C56FEF21412F930040549F /* 1111@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C56FED21412F930040549F /* 1111@2x.png */; };
+		BCD89223A4DFF22D16BB60D1 /* libPods-ISRedBlueView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF434E0D160C0BE1CECE424B /* libPods-ISRedBlueView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4B85847805D1B428A5CB9770 /* Pods-ISRedBlueView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISRedBlueView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ISRedBlueView/Pods-ISRedBlueView.debug.xcconfig"; sourceTree = "<group>"; };
+		A75EFC9E214245A2000E54D9 /* UIColor+Hex.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "UIColor+Hex.mm"; sourceTree = "<group>"; };
+		A75EFCA0214245B5000E54D9 /* UIColor+Hex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Hex.h"; sourceTree = "<group>"; };
+		A75EFCA421425694000E54D9 /* ISChaoEnergyProgressLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISChaoEnergyProgressLayer.h; sourceTree = "<group>"; };
+		A75EFCA521425694000E54D9 /* ISChaoEnergyProgressLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ISChaoEnergyProgressLayer.mm; sourceTree = "<group>"; };
+		A786A251213E792F00391DAF /* ISRedBlueView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ISRedBlueView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A786A254213E792F00391DAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A786A255213E792F00391DAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A786A257213E792F00391DAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A786A258213E793000391DAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A786A25B213E793000391DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A786A25D213E793200391DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A786A260213E793200391DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A786A262213E793200391DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A786A263213E793200391DAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A786A26E213E7F4100391DAF /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		A7C56FE621411E210040549F /* ISChaosEnergyView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISChaosEnergyView.h; sourceTree = "<group>"; };
+		A7C56FE721411E210040549F /* ISChaosEnergyView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ISChaosEnergyView.mm; sourceTree = "<group>"; };
+		A7C56FE921412E610040549F /* ISChaoEnergyProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISChaoEnergyProgressView.h; sourceTree = "<group>"; };
+		A7C56FEA21412E610040549F /* ISChaoEnergyProgressView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ISChaoEnergyProgressView.mm; sourceTree = "<group>"; };
+		A7C56FEC21412F920040549F /* 2222@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2222@2x.png"; sourceTree = "<group>"; };
+		A7C56FED21412F930040549F /* 1111@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1111@2x.png"; sourceTree = "<group>"; };
+		B5A907578E944A5B82DF86D6 /* Pods-ISRedBlueView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISRedBlueView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISRedBlueView/Pods-ISRedBlueView.release.xcconfig"; sourceTree = "<group>"; };
+		EF434E0D160C0BE1CECE424B /* libPods-ISRedBlueView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ISRedBlueView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A786A24E213E792F00391DAF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCD89223A4DFF22D16BB60D1 /* libPods-ISRedBlueView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60DBE65D1C3C7C6776725938 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B85847805D1B428A5CB9770 /* Pods-ISRedBlueView.debug.xcconfig */,
+				B5A907578E944A5B82DF86D6 /* Pods-ISRedBlueView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9C4945740A790917DDCB0B29 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EF434E0D160C0BE1CECE424B /* libPods-ISRedBlueView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A786A248213E792F00391DAF = {
+			isa = PBXGroup;
+			children = (
+				A786A253213E792F00391DAF /* ISRedBlueView */,
+				A786A252213E792F00391DAF /* Products */,
+				60DBE65D1C3C7C6776725938 /* Pods */,
+				9C4945740A790917DDCB0B29 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A786A252213E792F00391DAF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A786A251213E792F00391DAF /* ISRedBlueView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A786A253213E792F00391DAF /* ISRedBlueView */ = {
+			isa = PBXGroup;
+			children = (
+				A7C56FED21412F930040549F /* 1111@2x.png */,
+				A7C56FEC21412F920040549F /* 2222@2x.png */,
+				A786A254213E792F00391DAF /* AppDelegate.h */,
+				A786A255213E792F00391DAF /* AppDelegate.m */,
+				A786A257213E792F00391DAF /* ViewController.h */,
+				A786A258213E793000391DAF /* ViewController.m */,
+				A786A26E213E7F4100391DAF /* PrefixHeader.pch */,
+				A75EFCA0214245B5000E54D9 /* UIColor+Hex.h */,
+				A75EFC9E214245A2000E54D9 /* UIColor+Hex.mm */,
+				A786A26A213E795200391DAF /* ISChaosEnergyView */,
+				A786A25A213E793000391DAF /* Main.storyboard */,
+				A786A25D213E793200391DAF /* Assets.xcassets */,
+				A786A25F213E793200391DAF /* LaunchScreen.storyboard */,
+				A786A262213E793200391DAF /* Info.plist */,
+				A786A263213E793200391DAF /* main.m */,
+			);
+			path = ISRedBlueView;
+			sourceTree = "<group>";
+		};
+		A786A26A213E795200391DAF /* ISChaosEnergyView */ = {
+			isa = PBXGroup;
+			children = (
+				A7C56FE621411E210040549F /* ISChaosEnergyView.h */,
+				A7C56FE721411E210040549F /* ISChaosEnergyView.mm */,
+				A75EFCA421425694000E54D9 /* ISChaoEnergyProgressLayer.h */,
+				A75EFCA521425694000E54D9 /* ISChaoEnergyProgressLayer.mm */,
+				A7C56FE921412E610040549F /* ISChaoEnergyProgressView.h */,
+				A7C56FEA21412E610040549F /* ISChaoEnergyProgressView.mm */,
+			);
+			path = ISChaosEnergyView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A786A250213E792F00391DAF /* ISRedBlueView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A786A267213E793200391DAF /* Build configuration list for PBXNativeTarget "ISRedBlueView" */;
+			buildPhases = (
+				03EF59BFE2A1F86A32826FFD /* [CP] Check Pods Manifest.lock */,
+				A786A24D213E792F00391DAF /* Sources */,
+				A786A24E213E792F00391DAF /* Frameworks */,
+				A786A24F213E792F00391DAF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ISRedBlueView;
+			productName = ISRedBlueView;
+			productReference = A786A251213E792F00391DAF /* ISRedBlueView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A786A249213E792F00391DAF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = IS;
+				TargetAttributes = {
+					A786A250213E792F00391DAF = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A786A24C213E792F00391DAF /* Build configuration list for PBXProject "ISRedBlueView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A786A248213E792F00391DAF;
+			productRefGroup = A786A252213E792F00391DAF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A786A250213E792F00391DAF /* ISRedBlueView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A786A24F213E792F00391DAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C56FEE21412F930040549F /* 2222@2x.png in Resources */,
+				A786A261213E793200391DAF /* LaunchScreen.storyboard in Resources */,
+				A7C56FEF21412F930040549F /* 1111@2x.png in Resources */,
+				A786A25E213E793200391DAF /* Assets.xcassets in Resources */,
+				A786A25C213E793000391DAF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03EF59BFE2A1F86A32826FFD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ISRedBlueView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A786A24D213E792F00391DAF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A786A259213E793000391DAF /* ViewController.m in Sources */,
+				A75EFCA621425694000E54D9 /* ISChaoEnergyProgressLayer.mm in Sources */,
+				A7C56FEB21412E610040549F /* ISChaoEnergyProgressView.mm in Sources */,
+				A75EFC9F214245A3000E54D9 /* UIColor+Hex.mm in Sources */,
+				A786A264213E793200391DAF /* main.m in Sources */,
+				A7C56FE821411E210040549F /* ISChaosEnergyView.mm in Sources */,
+				A786A256213E792F00391DAF /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A786A25A213E793000391DAF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A786A25B213E793000391DAF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A786A25F213E793200391DAF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A786A260213E793200391DAF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A786A265213E793200391DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A786A266213E793200391DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A786A268213E793200391DAF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B85847805D1B428A5CB9770 /* Pods-ISRedBlueView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92M62R7M8M;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/ISRedBlueView/PrefixHeader.pch";
+				INFOPLIST_FILE = ISRedBlueView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ISRedBlueView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A786A269213E793200391DAF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5A907578E944A5B82DF86D6 /* Pods-ISRedBlueView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 92M62R7M8M;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "${SRCROOT}/ISRedBlueView/PrefixHeader.pch";
+				INFOPLIST_FILE = ISRedBlueView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.ISRedBlueView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A786A24C213E792F00391DAF /* Build configuration list for PBXProject "ISRedBlueView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A786A265213E793200391DAF /* Debug */,
+				A786A266213E793200391DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A786A267213E793200391DAF /* Build configuration list for PBXNativeTarget "ISRedBlueView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A786A268213E793200391DAF /* Debug */,
+				A786A269213E793200391DAF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A786A249213E792F00391DAF /* Project object */;
+}

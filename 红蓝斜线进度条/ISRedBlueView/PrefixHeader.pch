@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  ISRedBlueView
+//
+//  Created by run on 2018/9/4.
+//  Copyright © 2018年 IS. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import "UIColor+Hex.h"
+#import "masonry.h"
+
+#define IS_COLOR_RGB(R, G, B)       \
+  [UIColor colorWithRed:(R) / 255.f \
+                  green:(G) / 255.f \
+                   blue:(B) / 255.f \
+                  alpha:1.0]
+
+#define IS_COLOR_HEX(HEX_STRING) [UIColor colorWithHexString:HEX_STRING]
+
+#define ScreenScale [[UIScreen mainScreen] scale]
+#define ScreenWidth [[UIScreen mainScreen] bounds].size.width
+#define ScreenHeight [[UIScreen mainScreen] bounds].size.height
+
+#define IS_WEAK_SELF(weakSelf) __weak typeof(&*self) weakSelf = self
+#endif /* PrefixHeader_pch */
