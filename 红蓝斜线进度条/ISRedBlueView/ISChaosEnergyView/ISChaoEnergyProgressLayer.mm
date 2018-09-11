@@ -111,7 +111,7 @@ static CALayer* hand_layer(CGFloat contentsScale) {
   return self;
 }
 
-#pragma mark - Overides
+#pragma mark - override -
 - (void)layoutSublayers {
   [super layoutSublayers];
   

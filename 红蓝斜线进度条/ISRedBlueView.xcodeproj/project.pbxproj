@@ -17,8 +17,6 @@
 		A786A264213E793200391DAF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A786A263213E793200391DAF /* main.m */; };
 		A7C56FE821411E210040549F /* ISChaosEnergyView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7C56FE721411E210040549F /* ISChaosEnergyView.mm */; };
 		A7C56FEB21412E610040549F /* ISChaoEnergyProgressView.mm in Sources */ = {isa = PBXBuildFile; fileRef = A7C56FEA21412E610040549F /* ISChaoEnergyProgressView.mm */; };
-		A7C56FEE21412F930040549F /* 2222@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C56FEC21412F920040549F /* 2222@2x.png */; };
-		A7C56FEF21412F930040549F /* 1111@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7C56FED21412F930040549F /* 1111@2x.png */; };
 		BCD89223A4DFF22D16BB60D1 /* libPods-ISRedBlueView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF434E0D160C0BE1CECE424B /* libPods-ISRedBlueView.a */; };
 /* End PBXBuildFile section */
 
@@ -43,8 +41,6 @@
 		A7C56FE721411E210040549F /* ISChaosEnergyView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ISChaosEnergyView.mm; sourceTree = "<group>"; };
 		A7C56FE921412E610040549F /* ISChaoEnergyProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ISChaoEnergyProgressView.h; sourceTree = "<group>"; };
 		A7C56FEA21412E610040549F /* ISChaoEnergyProgressView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ISChaoEnergyProgressView.mm; sourceTree = "<group>"; };
-		A7C56FEC21412F920040549F /* 2222@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2222@2x.png"; sourceTree = "<group>"; };
-		A7C56FED21412F930040549F /* 1111@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1111@2x.png"; sourceTree = "<group>"; };
 		B5A907578E944A5B82DF86D6 /* Pods-ISRedBlueView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ISRedBlueView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ISRedBlueView/Pods-ISRedBlueView.release.xcconfig"; sourceTree = "<group>"; };
 		EF434E0D160C0BE1CECE424B /* libPods-ISRedBlueView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ISRedBlueView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -99,8 +95,6 @@
 		A786A253213E792F00391DAF /* ISRedBlueView */ = {
 			isa = PBXGroup;
 			children = (
-				A7C56FED21412F930040549F /* 1111@2x.png */,
-				A7C56FEC21412F920040549F /* 2222@2x.png */,
 				A786A254213E792F00391DAF /* AppDelegate.h */,
 				A786A255213E792F00391DAF /* AppDelegate.m */,
 				A786A257213E792F00391DAF /* ViewController.h */,
@@ -189,9 +183,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A7C56FEE21412F930040549F /* 2222@2x.png in Resources */,
 				A786A261213E793200391DAF /* LaunchScreen.storyboard in Resources */,
-				A7C56FEF21412F930040549F /* 1111@2x.png in Resources */,
 				A786A25E213E793200391DAF /* Assets.xcassets in Resources */,
 				A786A25C213E793000391DAF /* Main.storyboard in Resources */,
 			);
